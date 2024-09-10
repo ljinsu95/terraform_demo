@@ -1,6 +1,6 @@
 variable "prefix" {
   type        = string
-  default     = "terraform_jinsu"
+  default     = "cli_remote"
   description = "prefix"
 }
 

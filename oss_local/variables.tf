@@ -1,6 +1,6 @@
 variable "prefix" {
   type        = string
-  default     = "vcs"
+  default     = "oss_local"
   description = "prefix"
 }
 
