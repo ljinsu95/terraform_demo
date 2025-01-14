@@ -7,7 +7,7 @@ provider "aws" {
 
 module "vault" {
   source  = "app.terraform.io/insideinfo_jinsu/vault/aws"
-  version = "1.0.1"
+  version = "1.0.2"
   # insert required variables here
   VAULT_LICENSE  = var.VAULT_LICENSE
   aws_vpc_id     = var.aws_vpc_id
